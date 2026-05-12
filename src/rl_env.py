@@ -123,6 +123,7 @@ class SchedulingEnv(gym.Env):
         self.current_step = 0
         self.start_time = time.time()
         self.stagnation_counter = 0
+        self.sa_temperature = 50.0  # Track SA temperature across steps
         
         # Initialize GA
         self.ga = ScheduleGA(self.context)
@@ -188,6 +189,10 @@ class SchedulingEnv(gym.Env):
         # Execute action
         info = {'action': action}
         
+        # Reset SA temperature if we take a disruptive action
+        if action != 2:
+            self.sa_temperature = 50.0
+            
         if self.fast_mode:
             # Fast mode: minimal iterations for quick training
             if action == 0:
@@ -316,14 +321,22 @@ class SchedulingEnv(gym.Env):
                 iterations_per_temp=10
             )
         else:
+            # Continue cooling from where we left off in the previous SA step
+            min_t = self.sa_temperature * 0.1
+            if min_t < 0.01:
+                min_t = 0.01
+                
             self.current_schedule = optimize_soft_constraints(
                 self.context,
                 self.current_schedule,
-                initial_temp=50.0,
-                cooling_rate=0.85,
-                min_temp=0.1,
-                iterations_per_temp=200
+                initial_temp=max(self.sa_temperature, min_t + 0.01),
+                cooling_rate=0.90,
+                min_temp=min_t,
+                iterations_per_temp=400
             )
+            
+            # Update temperature for the next consecutive SA step
+            self.sa_temperature = min_t
     
     def get_current_schedule(self) -> List[Tuple[int, int]]:
         """Return the current best schedule."""
