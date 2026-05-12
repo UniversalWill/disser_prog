@@ -1,5 +1,7 @@
-from typing import List, Tuple, Dict, Any
 import os
+os.environ.setdefault("XLA_PYTHON_CLIENT_MEM_FRACTION", "0.6")
+
+from typing import List, Tuple, Dict, Any
 from .models import ScheduleContext
 from .rl_env import SchedulingEnv
 from .validator import ScheduleValidator
@@ -33,7 +35,7 @@ class RLScheduler:
         
     def load_model(self):
         """Load the trained RL model."""
-        from stable_baselines3 import PPO
+        from sbx import PPO
         
         if not os.path.exists(self.model_path):
             raise FileNotFoundError(
@@ -84,6 +86,7 @@ class RLScheduler:
         while not done:
             # Get action from RL agent
             action, _states = self.model.predict(obs, deterministic=True)
+            action = int(action)
             
             # Execute action
             obs, reward, terminated, truncated, info = env.step(action)

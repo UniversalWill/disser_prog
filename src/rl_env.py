@@ -179,6 +179,7 @@ class SchedulingEnv(gym.Env):
     
     def step(self, action: int) -> Tuple[np.ndarray, float, bool, bool, dict]:
         """Execute one step in the environment."""
+        action = int(action)
         self.current_step += 1
         
         # Calculate potential before action

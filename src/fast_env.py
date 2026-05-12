@@ -89,6 +89,7 @@ class FastSchedulingEnv(gym.Env):
     
     def step(self, action: int) -> Tuple[np.ndarray, float, bool, bool, dict]:
         """Execute one step in the environment."""
+        action = int(action)
         self.current_step += 1
         
         # Get action effects

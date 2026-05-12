@@ -1,13 +1,13 @@
+import os
+os.environ.setdefault("XLA_PYTHON_CLIENT_MEM_FRACTION", "0.6")
+
 import random
 import numpy as np
-from stable_baselines3 import PPO
+from sbx import PPO
 from stable_baselines3.common.callbacks import BaseCallback, CheckpointCallback
-from stable_baselines3.common.env_util import make_vec_env
-from stable_baselines3.common.vec_env import DummyVecEnv
 import gymnasium as gym
 from gymnasium import spaces
 from typing import Optional, List
-import os
 from datetime import datetime
 
 from src.models import ScheduleContext, Teacher, Group, Room, Slot, Event, RoomType, WeekType
@@ -208,22 +208,18 @@ def train_rl_agent(
         max_time_seconds=60.0,
         fast_mode=fast_mode
     )
-    
-    # Wrap in DummyVecEnv for stable-baselines3
-    vec_env = DummyVecEnv([lambda: env])
-    
+
     # Create PPO agent
     print("\nInitializing PPO agent...")
     model = PPO(
         "MlpPolicy",
-        vec_env,
+        env,
         learning_rate=3e-4,
         n_steps=2048,
         batch_size=64,
         n_epochs=10,
         gamma=0.99,
         verbose=1,
-        device="cpu",  # CPU is faster for MLP policy
         tensorboard_log=os.path.join(save_path, "tensorboard")
     )
     
@@ -274,5 +270,5 @@ if __name__ == "__main__":
     )
     
     print("\nTo use the trained model:")
-    print("  from stable_baselines3 import PPO")
+    print("  from sbx import PPO")
     print("  model = PPO.load('rl_models/rl_scheduler_final.zip')")

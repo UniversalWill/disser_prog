@@ -4,12 +4,13 @@ Trains in minutes instead of hours.
 """
 
 import os
+os.environ.setdefault("XLA_PYTHON_CLIENT_MEM_FRACTION", "0.6")
+
 import random
 import numpy as np
 from datetime import datetime
-from stable_baselines3 import PPO
+from sbx import PPO
 from stable_baselines3.common.callbacks import BaseCallback, CheckpointCallback
-from stable_baselines3.common.vec_env import DummyVecEnv
 import gymnasium as gym
 from gymnasium import spaces
 from typing import Optional, List
@@ -28,7 +29,7 @@ class ProgressCallback(BaseCallback):
         if self.n_calls % self.check_freq == 0:
             if len(self.model.ep_info_buffer) > 0:
                 ep_info = self.model.ep_info_buffer[-1]
-                print(f"Step {self.n_calls}: reward={ep_info.get('r', 0):.1f}, episodes={self.num_episodes}")
+                print(f"Step {self.n_calls}: reward={ep_info.get('r', 0):.1f}")
         return True
 
 
@@ -56,21 +57,18 @@ def train_fast_rl(
         max_steps=50,
         max_time_seconds=60.0
     )
-    
-    vec_env = DummyVecEnv([lambda: env])
-    
+
     # Create PPO agent
     print("\nInitializing PPO agent...")
     model = PPO(
         "MlpPolicy",
-        vec_env,
+        env,
         learning_rate=learning_rate,
         n_steps=2048,
         batch_size=64,
         n_epochs=10,
         gamma=0.99,
         verbose=1,
-        device="cpu",
         tensorboard_log=os.path.join(save_path, "tensorboard_fast")
     )
     
@@ -116,7 +114,7 @@ def evaluate_policy(model_path: str = "rl_models/fast_rl_scheduler_final.zip", n
     """
     Evaluate the trained policy.
     """
-    from stable_baselines3 import PPO
+    from sbx import PPO
     
     print("\n" + "="*60)
     print("EVALUATING TRAINED POLICY")
