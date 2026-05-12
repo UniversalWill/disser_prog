@@ -1,0 +1,1209 @@
+[
+  {
+    "day": 1,
+    "day_name": "Понедельник",
+    "time": 1,
+    "events": [
+      {
+        "group_id": 1,
+        "group_name": "Группа-1",
+        "subject": "Математика",
+        "teacher": "Преподаватель_10",
+        "room": "13-Лабораторный корпус",
+        "room_type": "Lab",
+        "is_conflict": false
+      },
+      {
+        "group_id": 2,
+        "group_name": "Группа-2",
+        "subject": "Программирование",
+        "teacher": "Преподаватель_1",
+        "room": "10-Главный корпус",
+        "room_type": "Lecture",
+        "is_conflict": false
+      },
+      {
+        "group_id": 3,
+        "group_name": "Группа-3",
+        "subject": "Сети",
+        "teacher": "Преподаватель_2",
+        "room": "1-Главный корпус",
+        "room_type": "Lecture",
+        "is_conflict": false
+      },
+      {
+        "group_id": 5,
+        "group_name": "Группа-5",
+        "subject": "Физика",
+        "teacher": "Преподаватель_9",
+        "room": "7-Главный корпус",
+        "room_type": "Lecture",
+        "is_conflict": false
+      },
+      {
+        "group_id": 6,
+        "group_name": "Группа-6",
+        "subject": "История",
+        "teacher": "Преподаватель_7",
+        "room": "4-Главный корпус",
+        "room_type": "Lecture",
+        "is_conflict": false
+      },
+      {
+        "group_id": 9,
+        "group_name": "Группа-9",
+        "subject": "Программирование",
+        "teacher": "Преподаватель_8",
+        "room": "12-Лабораторный корпус",
+        "room_type": "Lab",
+        "is_conflict": false
+      },
+      {
+        "group_id": 10,
+        "group_name": "Группа-10",
+        "subject": "История",
+        "teacher": "Преподаватель_7",
+        "room": "4-Главный корпус",
+        "room_type": "Lecture",
+        "is_conflict": false
+      }
+    ]
+  },
+  {
+    "day": 1,
+    "day_name": "Понедельник",
+    "time": 2,
+    "events": [
+      {
+        "group_id": 2,
+        "group_name": "Группа-2",
+        "subject": "Программирование",
+        "teacher": "Преподаватель_5",
+        "room": "12-Лабораторный корпус",
+        "room_type": "Lab",
+        "is_conflict": false
+      },
+      {
+        "group_id": 3,
+        "group_name": "Группа-3",
+        "subject": "Физика",
+        "teacher": "Преподаватель_2",
+        "room": "15-Лабораторный корпус",
+        "room_type": "Lab",
+        "is_conflict": false
+      },
+      {
+        "group_id": 4,
+        "group_name": "Группа-4",
+        "subject": "Математика",
+        "teacher": "Преподаватель_7",
+        "room": "9-Главный корпус",
+        "room_type": "Lecture",
+        "is_conflict": false
+      },
+      {
+        "group_id": 5,
+        "group_name": "Группа-5",
+        "subject": "Философия",
+        "teacher": "Преподаватель_3",
+        "room": "14-Лабораторный корпус",
+        "room_type": "Lab",
+        "is_conflict": false
+      },
+      {
+        "group_id": 6,
+        "group_name": "Группа-6",
+        "subject": "Физика",
+        "teacher": "Преподаватель_9",
+        "room": "10-Главный корпус",
+        "room_type": "Lecture",
+        "is_conflict": false
+      },
+      {
+        "group_id": 7,
+        "group_name": "Группа-7",
+        "subject": "Философия",
+        "teacher": "Преподаватель_1",
+        "room": "13-Лабораторный корпус",
+        "room_type": "Lab",
+        "is_conflict": false
+      },
+      {
+        "group_id": 8,
+        "group_name": "Группа-8",
+        "subject": "Базы данных",
+        "teacher": "Преподаватель_8",
+        "room": "6-Главный корпус",
+        "room_type": "Lecture",
+        "is_conflict": false
+      },
+      {
+        "group_id": 9,
+        "group_name": "Группа-9",
+        "subject": "Математика",
+        "teacher": "Преподаватель_7",
+        "room": "9-Главный корпус",
+        "room_type": "Lecture",
+        "is_conflict": false
+      },
+      {
+        "group_id": 10,
+        "group_name": "Группа-10",
+        "subject": "Физика",
+        "teacher": "Преподаватель_10",
+        "room": "5-Главный корпус",
+        "room_type": "Lecture",
+        "is_conflict": false
+      }
+    ]
+  },
+  {
+    "day": 1,
+    "day_name": "Понедельник",
+    "time": 3,
+    "events": [
+      {
+        "group_id": 4,
+        "group_name": "Группа-4",
+        "subject": "Физика",
+        "teacher": "Преподаватель_4",
+        "room": "4-Главный корпус",
+        "room_type": "Lecture",
+        "is_conflict": false
+      },
+      {
+        "group_id": 5,
+        "group_name": "Группа-5",
+        "subject": "Сети",
+        "teacher": "Преподаватель_3",
+        "room": "9-Главный корпус",
+        "room_type": "Lecture",
+        "is_conflict": false
+      },
+      {
+        "group_id": 6,
+        "group_name": "Группа-6",
+        "subject": "История",
+        "teacher": "Преподаватель_2",
+        "room": "14-Лабораторный корпус",
+        "room_type": "Lab",
+        "is_conflict": false
+      },
+      {
+        "group_id": 7,
+        "group_name": "Группа-7",
+        "subject": "Физика",
+        "teacher": "Преподаватель_5",
+        "room": "13-Лабораторный корпус",
+        "room_type": "Lab",
+        "is_conflict": false
+      },
+      {
+        "group_id": 8,
+        "group_name": "Группа-8",
+        "subject": "Философия",
+        "teacher": "Преподаватель_9",
+        "room": "3-Главный корпус",
+        "room_type": "Lecture",
+        "is_conflict": false
+      },
+      {
+        "group_id": 9,
+        "group_name": "Группа-9",
+        "subject": "Физика",
+        "teacher": "Преподаватель_7",
+        "room": "11-Лабораторный корпус",
+        "room_type": "Lab",
+        "is_conflict": false
+      }
+    ]
+  },
+  {
+    "day": 1,
+    "day_name": "Понедельник",
+    "time": 4,
+    "events": [
+      {
+        "group_id": 6,
+        "group_name": "Группа-6",
+        "subject": "Базы данных",
+        "teacher": "Преподаватель_4",
+        "room": "11-Лабораторный корпус",
+        "room_type": "Lab",
+        "is_conflict": false
+      },
+      {
+        "group_id": 9,
+        "group_name": "Группа-9",
+        "subject": "Английский",
+        "teacher": "Преподаватель_3",
+        "room": "10-Главный корпус",
+        "room_type": "Lecture",
+        "is_conflict": false
+      }
+    ]
+  },
+  {
+    "day": 1,
+    "day_name": "Понедельник",
+    "time": 5,
+    "events": [
+      {
+        "group_id": 6,
+        "group_name": "Группа-6",
+        "subject": "Физика",
+        "teacher": "Преподаватель_4",
+        "room": "7-Главный корпус",
+        "room_type": "Lecture",
+        "is_conflict": false
+      },
+      {
+        "group_id": 9,
+        "group_name": "Группа-9",
+        "subject": "Сети",
+        "teacher": "Преподаватель_3",
+        "room": "12-Лабораторный корпус",
+        "room_type": "Lab",
+        "is_conflict": false
+      }
+    ]
+  },
+  {
+    "day": 2,
+    "day_name": "Вторник",
+    "time": 1,
+    "events": [
+      {
+        "group_id": 1,
+        "group_name": "Группа-1",
+        "subject": "Философия",
+        "teacher": "Преподаватель_8",
+        "room": "6-Главный корпус",
+        "room_type": "Lecture",
+        "is_conflict": false
+      },
+      {
+        "group_id": 5,
+        "group_name": "Группа-5",
+        "subject": "История",
+        "teacher": "Преподаватель_5",
+        "room": "12-Лабораторный корпус",
+        "room_type": "Lab",
+        "is_conflict": false
+      },
+      {
+        "group_id": 7,
+        "group_name": "Группа-7",
+        "subject": "Сети",
+        "teacher": "Преподаватель_7",
+        "room": "4-Главный корпус",
+        "room_type": "Lecture",
+        "is_conflict": false
+      },
+      {
+        "group_id": 8,
+        "group_name": "Группа-8",
+        "subject": "Физика",
+        "teacher": "Преподаватель_4",
+        "room": "1-Главный корпус",
+        "room_type": "Lecture",
+        "is_conflict": false
+      },
+      {
+        "group_id": 9,
+        "group_name": "Группа-9",
+        "subject": "Английский",
+        "teacher": "Преподаватель_10",
+        "room": "13-Лабораторный корпус",
+        "room_type": "Lab",
+        "is_conflict": false
+      },
+      {
+        "group_id": 10,
+        "group_name": "Группа-10",
+        "subject": "Физика",
+        "teacher": "Преподаватель_4",
+        "room": "1-Главный корпус",
+        "room_type": "Lecture",
+        "is_conflict": false
+      }
+    ]
+  },
+  {
+    "day": 2,
+    "day_name": "Вторник",
+    "time": 2,
+    "events": [
+      {
+        "group_id": 2,
+        "group_name": "Группа-2",
+        "subject": "Базы данных",
+        "teacher": "Преподаватель_5",
+        "room": "9-Главный корпус",
+        "room_type": "Lecture",
+        "is_conflict": false
+      },
+      {
+        "group_id": 3,
+        "group_name": "Группа-3",
+        "subject": "Базы данных",
+        "teacher": "Преподаватель_4",
+        "room": "12-Лабораторный корпус",
+        "room_type": "Lab",
+        "is_conflict": false
+      },
+      {
+        "group_id": 4,
+        "group_name": "Группа-4",
+        "subject": "Английский",
+        "teacher": "Преподаватель_8",
+        "room": "11-Лабораторный корпус",
+        "room_type": "Lab",
+        "is_conflict": false
+      },
+      {
+        "group_id": 6,
+        "group_name": "Группа-6",
+        "subject": "Физика",
+        "teacher": "Преподаватель_10",
+        "room": "13-Лабораторный корпус",
+        "room_type": "Lab",
+        "is_conflict": false
+      },
+      {
+        "group_id": 7,
+        "group_name": "Группа-7",
+        "subject": "Базы данных",
+        "teacher": "Преподаватель_5",
+        "room": "9-Главный корпус",
+        "room_type": "Lecture",
+        "is_conflict": false
+      },
+      {
+        "group_id": 8,
+        "group_name": "Группа-8",
+        "subject": "История",
+        "teacher": "Преподаватель_1",
+        "room": "8-Главный корпус",
+        "room_type": "Lecture",
+        "is_conflict": false
+      },
+      {
+        "group_id": 9,
+        "group_name": "Группа-9",
+        "subject": "История",
+        "teacher": "Преподаватель_1",
+        "room": "8-Главный корпус",
+        "room_type": "Lecture",
+        "is_conflict": false
+      },
+      {
+        "group_id": 10,
+        "group_name": "Группа-10",
+        "subject": "Физика",
+        "teacher": "Преподаватель_7",
+        "room": "14-Лабораторный корпус",
+        "room_type": "Lab",
+        "is_conflict": false
+      }
+    ]
+  },
+  {
+    "day": 2,
+    "day_name": "Вторник",
+    "time": 3,
+    "events": [
+      {
+        "group_id": 2,
+        "group_name": "Группа-2",
+        "subject": "Математика",
+        "teacher": "Преподаватель_7",
+        "room": "5-Главный корпус",
+        "room_type": "Lecture",
+        "is_conflict": false
+      },
+      {
+        "group_id": 3,
+        "group_name": "Группа-3",
+        "subject": "Философия",
+        "teacher": "Преподаватель_5",
+        "room": "10-Главный корпус",
+        "room_type": "Lecture",
+        "is_conflict": false
+      },
+      {
+        "group_id": 4,
+        "group_name": "Группа-4",
+        "subject": "Философия",
+        "teacher": "Преподаватель_4",
+        "room": "14-Лабораторный корпус",
+        "room_type": "Lab",
+        "is_conflict": false
+      },
+      {
+        "group_id": 6,
+        "group_name": "Группа-6",
+        "subject": "Философия",
+        "teacher": "Преподаватель_5",
+        "room": "10-Главный корпус",
+        "room_type": "Lecture",
+        "is_conflict": false
+      },
+      {
+        "group_id": 9,
+        "group_name": "Группа-9",
+        "subject": "Физика",
+        "teacher": "Преподаватель_8",
+        "room": "2-Главный корпус",
+        "room_type": "Lecture",
+        "is_conflict": false
+      }
+    ]
+  },
+  {
+    "day": 2,
+    "day_name": "Вторник",
+    "time": 4,
+    "events": [
+      {
+        "group_id": 4,
+        "group_name": "Группа-4",
+        "subject": "Физика",
+        "teacher": "Преподаватель_7",
+        "room": "14-Лабораторный корпус",
+        "room_type": "Lab",
+        "is_conflict": false
+      }
+    ]
+  },
+  {
+    "day": 3,
+    "day_name": "Среда",
+    "time": 1,
+    "events": [
+      {
+        "group_id": 1,
+        "group_name": "Группа-1",
+        "subject": "Программирование",
+        "teacher": "Преподаватель_1",
+        "room": "15-Лабораторный корпус",
+        "room_type": "Lab",
+        "is_conflict": false
+      },
+      {
+        "group_id": 3,
+        "group_name": "Группа-3",
+        "subject": "Математика",
+        "teacher": "Преподаватель_2",
+        "room": "9-Главный корпус",
+        "room_type": "Lecture",
+        "is_conflict": false
+      },
+      {
+        "group_id": 5,
+        "group_name": "Группа-5",
+        "subject": "Базы данных",
+        "teacher": "Преподаватель_5",
+        "room": "2-Главный корпус",
+        "room_type": "Lecture",
+        "is_conflict": false
+      },
+      {
+        "group_id": 7,
+        "group_name": "Группа-7",
+        "subject": "Программирование",
+        "teacher": "Преподаватель_7",
+        "room": "12-Лабораторный корпус",
+        "room_type": "Lab",
+        "is_conflict": false
+      },
+      {
+        "group_id": 8,
+        "group_name": "Группа-8",
+        "subject": "Английский",
+        "teacher": "Преподаватель_4",
+        "room": "5-Главный корпус",
+        "room_type": "Lecture",
+        "is_conflict": false
+      },
+      {
+        "group_id": 9,
+        "group_name": "Группа-9",
+        "subject": "Математика",
+        "teacher": "Преподаватель_2",
+        "room": "9-Главный корпус",
+        "room_type": "Lecture",
+        "is_conflict": false
+      }
+    ]
+  },
+  {
+    "day": 3,
+    "day_name": "Среда",
+    "time": 2,
+    "events": [
+      {
+        "group_id": 1,
+        "group_name": "Группа-1",
+        "subject": "Сети",
+        "teacher": "Преподаватель_7",
+        "room": "4-Главный корпус",
+        "room_type": "Lecture",
+        "is_conflict": false
+      },
+      {
+        "group_id": 2,
+        "group_name": "Группа-2",
+        "subject": "Английский",
+        "teacher": "Преподаватель_2",
+        "room": "10-Главный корпус",
+        "room_type": "Lecture",
+        "is_conflict": false
+      },
+      {
+        "group_id": 3,
+        "group_name": "Группа-3",
+        "subject": "Математика",
+        "teacher": "Преподаватель_6",
+        "room": "14-Лабораторный корпус",
+        "room_type": "Lab",
+        "is_conflict": false
+      },
+      {
+        "group_id": 5,
+        "group_name": "Группа-5",
+        "subject": "Сети",
+        "teacher": "Преподаватель_7",
+        "room": "4-Главный корпус",
+        "room_type": "Lecture",
+        "is_conflict": false
+      },
+      {
+        "group_id": 6,
+        "group_name": "Группа-6",
+        "subject": "Философия",
+        "teacher": "Преподаватель_5",
+        "room": "6-Главный корпус",
+        "room_type": "Lecture",
+        "is_conflict": false
+      },
+      {
+        "group_id": 7,
+        "group_name": "Группа-7",
+        "subject": "Физика",
+        "teacher": "Преподаватель_4",
+        "room": "15-Лабораторный корпус",
+        "room_type": "Lab",
+        "is_conflict": false
+      },
+      {
+        "group_id": 8,
+        "group_name": "Группа-8",
+        "subject": "Математика",
+        "teacher": "Преподаватель_8",
+        "room": "11-Лабораторный корпус",
+        "room_type": "Lab",
+        "is_conflict": false
+      },
+      {
+        "group_id": 9,
+        "group_name": "Группа-9",
+        "subject": "Физика",
+        "teacher": "Преподаватель_1",
+        "room": "7-Главный корпус",
+        "room_type": "Lecture",
+        "is_conflict": false
+      },
+      {
+        "group_id": 10,
+        "group_name": "Группа-10",
+        "subject": "Философия",
+        "teacher": "Преподаватель_5",
+        "room": "6-Главный корпус",
+        "room_type": "Lecture",
+        "is_conflict": false
+      }
+    ]
+  },
+  {
+    "day": 3,
+    "day_name": "Среда",
+    "time": 3,
+    "events": [
+      {
+        "group_id": 4,
+        "group_name": "Группа-4",
+        "subject": "Английский",
+        "teacher": "Преподаватель_6",
+        "room": "6-Главный корпус",
+        "room_type": "Lecture",
+        "is_conflict": false
+      },
+      {
+        "group_id": 5,
+        "group_name": "Группа-5",
+        "subject": "Сети",
+        "teacher": "Преподаватель_4",
+        "room": "11-Лабораторный корпус",
+        "room_type": "Lab",
+        "is_conflict": false
+      },
+      {
+        "group_id": 6,
+        "group_name": "Группа-6",
+        "subject": "Английский",
+        "teacher": "Преподаватель_6",
+        "room": "6-Главный корпус",
+        "room_type": "Lecture",
+        "is_conflict": false
+      },
+      {
+        "group_id": 9,
+        "group_name": "Группа-9",
+        "subject": "Программирование",
+        "teacher": "Преподаватель_8",
+        "room": "5-Главный корпус",
+        "room_type": "Lecture",
+        "is_conflict": false
+      }
+    ]
+  },
+  {
+    "day": 3,
+    "day_name": "Среда",
+    "time": 4,
+    "events": [
+      {
+        "group_id": 4,
+        "group_name": "Группа-4",
+        "subject": "Сети",
+        "teacher": "Преподаватель_4",
+        "room": "12-Лабораторный корпус",
+        "room_type": "Lab",
+        "is_conflict": false
+      },
+      {
+        "group_id": 5,
+        "group_name": "Группа-5",
+        "subject": "История",
+        "teacher": "Преподаватель_8",
+        "room": "3-Главный корпус",
+        "room_type": "Lecture",
+        "is_conflict": false
+      },
+      {
+        "group_id": 6,
+        "group_name": "Группа-6",
+        "subject": "История",
+        "teacher": "Преподаватель_8",
+        "room": "3-Главный корпус",
+        "room_type": "Lecture",
+        "is_conflict": false
+      }
+    ]
+  },
+  {
+    "day": 3,
+    "day_name": "Среда",
+    "time": 5,
+    "events": [
+      {
+        "group_id": 5,
+        "group_name": "Группа-5",
+        "subject": "Программирование",
+        "teacher": "Преподаватель_8",
+        "room": "3-Главный корпус",
+        "room_type": "Lecture",
+        "is_conflict": false
+      }
+    ]
+  },
+  {
+    "day": 4,
+    "day_name": "Четверг",
+    "time": 1,
+    "events": [
+      {
+        "group_id": 1,
+        "group_name": "Группа-1",
+        "subject": "История",
+        "teacher": "Преподаватель_1",
+        "room": "12-Лабораторный корпус",
+        "room_type": "Lab",
+        "is_conflict": false
+      },
+      {
+        "group_id": 3,
+        "group_name": "Группа-3",
+        "subject": "Базы данных",
+        "teacher": "Преподаватель_7",
+        "room": "11-Лабораторный корпус",
+        "room_type": "Lab",
+        "is_conflict": false
+      },
+      {
+        "group_id": 4,
+        "group_name": "Группа-4",
+        "subject": "Базы данных",
+        "teacher": "Преподаватель_2",
+        "room": "7-Главный корпус",
+        "room_type": "Lecture",
+        "is_conflict": false
+      },
+      {
+        "group_id": 5,
+        "group_name": "Группа-5",
+        "subject": "Базы данных",
+        "teacher": "Преподаватель_2",
+        "room": "7-Главный корпус",
+        "room_type": "Lecture",
+        "is_conflict": false
+      },
+      {
+        "group_id": 6,
+        "group_name": "Группа-6",
+        "subject": "Математика",
+        "teacher": "Преподаватель_3",
+        "room": "15-Лабораторный корпус",
+        "room_type": "Lab",
+        "is_conflict": false
+      },
+      {
+        "group_id": 7,
+        "group_name": "Группа-7",
+        "subject": "Математика",
+        "teacher": "Преподаватель_5",
+        "room": "14-Лабораторный корпус",
+        "room_type": "Lab",
+        "is_conflict": false
+      },
+      {
+        "group_id": 9,
+        "group_name": "Группа-9",
+        "subject": "Английский",
+        "teacher": "Преподаватель_9",
+        "room": "5-Главный корпус",
+        "room_type": "Lecture",
+        "is_conflict": false
+      }
+    ]
+  },
+  {
+    "day": 4,
+    "day_name": "Четверг",
+    "time": 2,
+    "events": [
+      {
+        "group_id": 1,
+        "group_name": "Группа-1",
+        "subject": "Философия",
+        "teacher": "Преподаватель_10",
+        "room": "3-Главный корпус",
+        "room_type": "Lecture",
+        "is_conflict": false
+      },
+      {
+        "group_id": 2,
+        "group_name": "Группа-2",
+        "subject": "Математика",
+        "teacher": "Преподаватель_9",
+        "room": "12-Лабораторный корпус",
+        "room_type": "Lab",
+        "is_conflict": false
+      },
+      {
+        "group_id": 3,
+        "group_name": "Группа-3",
+        "subject": "Сети",
+        "teacher": "Преподаватель_2",
+        "room": "14-Лабораторный корпус",
+        "room_type": "Lab",
+        "is_conflict": false
+      },
+      {
+        "group_id": 4,
+        "group_name": "Группа-4",
+        "subject": "Философия",
+        "teacher": "Преподаватель_5",
+        "room": "13-Лабораторный корпус",
+        "room_type": "Lab",
+        "is_conflict": false
+      },
+      {
+        "group_id": 5,
+        "group_name": "Группа-5",
+        "subject": "Физика",
+        "teacher": "Преподаватель_7",
+        "room": "4-Главный корпус",
+        "room_type": "Lecture",
+        "is_conflict": false
+      },
+      {
+        "group_id": 6,
+        "group_name": "Группа-6",
+        "subject": "Физика",
+        "teacher": "Преподаватель_7",
+        "room": "4-Главный корпус",
+        "room_type": "Lecture",
+        "is_conflict": false
+      },
+      {
+        "group_id": 7,
+        "group_name": "Группа-7",
+        "subject": "Английский",
+        "teacher": "Преподаватель_4",
+        "room": "5-Главный корпус",
+        "room_type": "Lecture",
+        "is_conflict": false
+      },
+      {
+        "group_id": 9,
+        "group_name": "Группа-9",
+        "subject": "Сети",
+        "teacher": "Преподаватель_3",
+        "room": "11-Лабораторный корпус",
+        "room_type": "Lab",
+        "is_conflict": false
+      }
+    ]
+  },
+  {
+    "day": 4,
+    "day_name": "Четверг",
+    "time": 3,
+    "events": [
+      {
+        "group_id": 2,
+        "group_name": "Группа-2",
+        "subject": "История",
+        "teacher": "Преподаватель_2",
+        "room": "10-Главный корпус",
+        "room_type": "Lecture",
+        "is_conflict": false
+      },
+      {
+        "group_id": 3,
+        "group_name": "Группа-3",
+        "subject": "Программирование",
+        "teacher": "Преподаватель_3",
+        "room": "5-Главный корпус",
+        "room_type": "Lecture",
+        "is_conflict": false
+      },
+      {
+        "group_id": 4,
+        "group_name": "Группа-4",
+        "subject": "Физика",
+        "teacher": "Преподаватель_10",
+        "room": "6-Главный корпус",
+        "room_type": "Lecture",
+        "is_conflict": false
+      },
+      {
+        "group_id": 5,
+        "group_name": "Группа-5",
+        "subject": "Сети",
+        "teacher": "Преподаватель_7",
+        "room": "7-Главный корпус",
+        "room_type": "Lecture",
+        "is_conflict": false
+      },
+      {
+        "group_id": 6,
+        "group_name": "Группа-6",
+        "subject": "Сети",
+        "teacher": "Преподаватель_4",
+        "room": "2-Главный корпус",
+        "room_type": "Lecture",
+        "is_conflict": false
+      },
+      {
+        "group_id": 7,
+        "group_name": "Группа-7",
+        "subject": "Физика",
+        "teacher": "Преподаватель_10",
+        "room": "6-Главный корпус",
+        "room_type": "Lecture",
+        "is_conflict": false
+      },
+      {
+        "group_id": 8,
+        "group_name": "Группа-8",
+        "subject": "Сети",
+        "teacher": "Преподаватель_7",
+        "room": "7-Главный корпус",
+        "room_type": "Lecture",
+        "is_conflict": false
+      },
+      {
+        "group_id": 10,
+        "group_name": "Группа-10",
+        "subject": "История",
+        "teacher": "Преподаватель_2",
+        "room": "10-Главный корпус",
+        "room_type": "Lecture",
+        "is_conflict": false
+      }
+    ]
+  },
+  {
+    "day": 4,
+    "day_name": "Четверг",
+    "time": 4,
+    "events": [
+      {
+        "group_id": 3,
+        "group_name": "Группа-3",
+        "subject": "Программирование",
+        "teacher": "Преподаватель_4",
+        "room": "12-Лабораторный корпус",
+        "room_type": "Lab",
+        "is_conflict": false
+      },
+      {
+        "group_id": 6,
+        "group_name": "Группа-6",
+        "subject": "Сети",
+        "teacher": "Преподаватель_10",
+        "room": "7-Главный корпус",
+        "room_type": "Lecture",
+        "is_conflict": false
+      },
+      {
+        "group_id": 8,
+        "group_name": "Группа-8",
+        "subject": "Английский",
+        "teacher": "Преподаватель_3",
+        "room": "15-Лабораторный корпус",
+        "room_type": "Lab",
+        "is_conflict": false
+      },
+      {
+        "group_id": 10,
+        "group_name": "Группа-10",
+        "subject": "Программирование",
+        "teacher": "Преподаватель_2",
+        "room": "11-Лабораторный корпус",
+        "room_type": "Lab",
+        "is_conflict": false
+      }
+    ]
+  },
+  {
+    "day": 5,
+    "day_name": "Пятница",
+    "time": 1,
+    "events": [
+      {
+        "group_id": 1,
+        "group_name": "Группа-1",
+        "subject": "Базы данных",
+        "teacher": "Преподаватель_5",
+        "room": "7-Главный корпус",
+        "room_type": "Lecture",
+        "is_conflict": false
+      },
+      {
+        "group_id": 2,
+        "group_name": "Группа-2",
+        "subject": "Программирование",
+        "teacher": "Преподаватель_1",
+        "room": "5-Главный корпус",
+        "room_type": "Lecture",
+        "is_conflict": false
+      },
+      {
+        "group_id": 3,
+        "group_name": "Группа-3",
+        "subject": "Философия",
+        "teacher": "Преподаватель_8",
+        "room": "6-Главный корпус",
+        "room_type": "Lecture",
+        "is_conflict": false
+      },
+      {
+        "group_id": 4,
+        "group_name": "Группа-4",
+        "subject": "Философия",
+        "teacher": "Преподаватель_10",
+        "room": "10-Главный корпус",
+        "room_type": "Lecture",
+        "is_conflict": false
+      },
+      {
+        "group_id": 5,
+        "group_name": "Группа-5",
+        "subject": "Программирование",
+        "teacher": "Преподаватель_9",
+        "room": "8-Главный корпус",
+        "room_type": "Lecture",
+        "is_conflict": false
+      },
+      {
+        "group_id": 7,
+        "group_name": "Группа-7",
+        "subject": "Философия",
+        "teacher": "Преподаватель_6",
+        "room": "9-Главный корпус",
+        "room_type": "Lecture",
+        "is_conflict": false
+      },
+      {
+        "group_id": 8,
+        "group_name": "Группа-8",
+        "subject": "Программирование",
+        "teacher": "Преподаватель_1",
+        "room": "5-Главный корпус",
+        "room_type": "Lecture",
+        "is_conflict": false
+      },
+      {
+        "group_id": 9,
+        "group_name": "Группа-9",
+        "subject": "Физика",
+        "teacher": "Преподаватель_7",
+        "room": "14-Лабораторный корпус",
+        "room_type": "Lab",
+        "is_conflict": false
+      }
+    ]
+  },
+  {
+    "day": 5,
+    "day_name": "Пятница",
+    "time": 2,
+    "events": [
+      {
+        "group_id": 1,
+        "group_name": "Группа-1",
+        "subject": "Философия",
+        "teacher": "Преподаватель_9",
+        "room": "6-Главный корпус",
+        "room_type": "Lecture",
+        "is_conflict": false
+      },
+      {
+        "group_id": 2,
+        "group_name": "Группа-2",
+        "subject": "Базы данных",
+        "teacher": "Преподаватель_10",
+        "room": "10-Главный корпус",
+        "room_type": "Lecture",
+        "is_conflict": false
+      },
+      {
+        "group_id": 3,
+        "group_name": "Группа-3",
+        "subject": "Программирование",
+        "teacher": "Преподаватель_8",
+        "room": "11-Лабораторный корпус",
+        "room_type": "Lab",
+        "is_conflict": false
+      },
+      {
+        "group_id": 4,
+        "group_name": "Группа-4",
+        "subject": "Базы данных",
+        "teacher": "Преподаватель_5",
+        "room": "7-Главный корпус",
+        "room_type": "Lecture",
+        "is_conflict": false
+      },
+      {
+        "group_id": 8,
+        "group_name": "Группа-8",
+        "subject": "Математика",
+        "teacher": "Преподаватель_7",
+        "room": "12-Лабораторный корпус",
+        "room_type": "Lab",
+        "is_conflict": false
+      },
+      {
+        "group_id": 9,
+        "group_name": "Группа-9",
+        "subject": "Сети",
+        "teacher": "Преподаватель_6",
+        "room": "8-Главный корпус",
+        "room_type": "Lecture",
+        "is_conflict": false
+      },
+      {
+        "group_id": 10,
+        "group_name": "Группа-10",
+        "subject": "Базы данных",
+        "teacher": "Преподаватель_1",
+        "room": "4-Главный корпус",
+        "room_type": "Lecture",
+        "is_conflict": false
+      }
+    ]
+  },
+  {
+    "day": 5,
+    "day_name": "Пятница",
+    "time": 3,
+    "events": [
+      {
+        "group_id": 1,
+        "group_name": "Группа-1",
+        "subject": "Сети",
+        "teacher": "Преподаватель_9",
+        "room": "6-Главный корпус",
+        "room_type": "Lecture",
+        "is_conflict": false
+      },
+      {
+        "group_id": 6,
+        "group_name": "Группа-6",
+        "subject": "Базы данных",
+        "teacher": "Преподаватель_2",
+        "room": "3-Главный корпус",
+        "room_type": "Lecture",
+        "is_conflict": false
+      },
+      {
+        "group_id": 9,
+        "group_name": "Группа-9",
+        "subject": "Программирование",
+        "teacher": "Преподаватель_6",
+        "room": "9-Главный корпус",
+        "room_type": "Lecture",
+        "is_conflict": false
+      },
+      {
+        "group_id": 10,
+        "group_name": "Группа-10",
+        "subject": "Английский",
+        "teacher": "Преподаватель_7",
+        "room": "5-Главный корпус",
+        "room_type": "Lecture",
+        "is_conflict": false
+      }
+    ]
+  },
+  {
+    "day": 5,
+    "day_name": "Пятница",
+    "time": 4,
+    "events": [
+      {
+        "group_id": 6,
+        "group_name": "Группа-6",
+        "subject": "Физика",
+        "teacher": "Преподаватель_2",
+        "room": "14-Лабораторный корпус",
+        "room_type": "Lab",
+        "is_conflict": false
+      },
+      {
+        "group_id": 9,
+        "group_name": "Группа-9",
+        "subject": "Философия",
+        "teacher": "Преподаватель_6",
+        "room": "15-Лабораторный корпус",
+        "room_type": "Lab",
+        "is_conflict": false
+      }
+    ]
+  }
+]
