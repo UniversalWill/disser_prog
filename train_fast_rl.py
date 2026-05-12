@@ -152,11 +152,5 @@ def evaluate_policy(model_path: str = "rl_models/fast_rl_scheduler_final.zip", n
 
 
 if __name__ == "__main__":
-    # Train with fast environment
-    model = train_fast_rl(
-        total_timesteps=100000,  # Should complete in 2-5 minutes
-        save_path="rl_models"
-    )
-    
     # Evaluate the trained policy
-    evaluate_policy(n_episodes=20)
+    evaluate_policy(n_episodes=5)

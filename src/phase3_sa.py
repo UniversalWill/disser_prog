@@ -79,10 +79,10 @@ def evaluate_soft_score(context: ScheduleContext, chromosome: List[Tuple[int, in
                     # We want to encourage classes to start as early as possible.
                     # Penalize based on the starting time of the FIRST class of the day.
                     first_class_time = min(times)
-                    # If first class starts at pair 1, penalty is 0. 
-                    # If it starts at pair 2, penalty is 2. If pair 5, penalty is 8.
-                    # We use a minor penalty weight here to not override the window fixing.
-                    windows_penalty += (first_class_time - 1) * 2
+                    
+                    # Apply a stronger penalty for late starts, especially for groups
+                    late_weight = 15 if is_group else 5
+                    windows_penalty += (first_class_time - 1) * late_weight
                         
             # If it's a student group, having completely empty days in the middle of the week is usually bad
             # (unless it's an intended study day, but we penalize it here to spread classes evenly).

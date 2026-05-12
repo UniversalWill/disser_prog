@@ -61,7 +61,8 @@ class RLScheduler:
         env = SchedulingEnv(
             context=self.context,
             max_steps=self.max_steps,
-            max_time_seconds=self.max_time_seconds
+            max_time_seconds=self.max_time_seconds,
+            fast_mode=False
         )
         
         # Reset and run
@@ -101,9 +102,10 @@ class RLScheduler:
             
             # Progress output
             if step % 5 == 0 or terminated or truncated:
-                print(f"Step {step+1}: Action={action_name}, "
+                print(f"Step {step}: Action={action_name}, "
                       f"Hard={info.get('hard_conflicts', '?')}, "
-                      f"Soft={info.get('soft_score', '?'):.0f}")
+                      f"Soft={info.get('soft_score', '?'):.0f}, "
+                      f"Terminated={terminated}, Truncated={truncated}")
             
             done = terminated or truncated
             step += 1

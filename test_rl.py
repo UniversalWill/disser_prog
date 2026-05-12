@@ -100,7 +100,7 @@ def main():
     else:
         print("\nLoading trained RL model...")
         context = create_test_context()
-        scheduler = RLScheduler(context, model_path)
+        scheduler = RLScheduler(context, model_path, max_steps=15, max_time_seconds=300.0)
         schedule, metrics = scheduler.solve()
     
     # Validate

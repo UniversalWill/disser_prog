@@ -98,7 +98,7 @@ def repair_with_cpsat(context: ScheduleContext, ga_chromosome: List[Tuple[int, i
     
     # Solve
     solver = cp_model.CpSolver()
-    solver.parameters.max_time_in_seconds = 60.0 # Set a timeout
+    solver.parameters.max_time_in_seconds = 10.0 # Set a shorter timeout for RL efficiency
     
     status = solver.Solve(model)
     

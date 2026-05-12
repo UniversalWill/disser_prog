@@ -238,15 +238,20 @@ class SchedulingEnv(gym.Env):
         
         # Check termination conditions
         elapsed_time = time.time() - self.start_time
-        truncated = (self.current_step >= self.max_steps or elapsed_time >= self.max_time_seconds)
-        terminated = (new_hard_conflicts == 0 and new_soft_score <= 0)
+        truncated = bool(self.current_step >= self.max_steps or elapsed_time >= self.max_time_seconds)
+        terminated = bool(new_hard_conflicts == 0 and new_soft_score <= 0)
+        
+        # DEBUG output
+        # print(f"[DEBUG] Step {self.current_step} - Hard: {new_hard_conflicts}, Soft: {new_soft_score}, Time: {elapsed_time:.2f}s, Terminated: {terminated}, Truncated: {truncated}")
+        print(f"[DEBUG-TIME] Step {self.current_step}, Action={info['action_name']}, Elapsed: {elapsed_time:.2f}s, Max Time: {self.max_time_seconds}s")
         
         info.update({
             'hard_conflicts': new_hard_conflicts,
             'soft_score': new_soft_score,
             'stagnation': self.stagnation_counter,
             'elapsed_time': elapsed_time,
-            'truncated': truncated
+            'truncated': truncated,
+            'terminated': terminated
         })
         
         return self._get_obs(), reward, terminated, truncated, info
@@ -301,14 +306,24 @@ class SchedulingEnv(gym.Env):
     
     def _run_sa_step(self, n_iter: int = 100):
         """Run SA for a few iterations."""
-        self.current_schedule = optimize_soft_constraints(
-            self.context,
-            self.current_schedule,
-            initial_temp=100.0,
-            cooling_rate=0.99,
-            min_temp=50.0,  # Higher min_temp for short runs
-            iterations_per_temp=n_iter // 10
-        )
+        if self.fast_mode:
+            self.current_schedule = optimize_soft_constraints(
+                self.context,
+                self.current_schedule,
+                initial_temp=100.0,
+                cooling_rate=0.95,
+                min_temp=50.0,
+                iterations_per_temp=10
+            )
+        else:
+            self.current_schedule = optimize_soft_constraints(
+                self.context,
+                self.current_schedule,
+                initial_temp=50.0,
+                cooling_rate=0.85,
+                min_temp=0.1,
+                iterations_per_temp=200
+            )
     
     def get_current_schedule(self) -> List[Tuple[int, int]]:
         """Return the current best schedule."""
