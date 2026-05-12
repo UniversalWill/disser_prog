@@ -3,4 +3,6 @@ deap==1.4.4
 ortools==9.15.6755
 numpy==2.4.4
 stable-baselines3==2.8.0
+sbx-rl==0.26.0
 gymnasium==1.2.3
+pandas==3.0.3
